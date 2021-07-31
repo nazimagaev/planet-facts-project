@@ -1,0 +1,31 @@
+:root {
+  --secondary-color: #d87d4a;
+  --primary-color: #101010;
+  --color-3: #f1f1f1;
+  --color-4: #fafafa;
+  --color-5: #fbaf85;
+  --color-6: #ffffff;
+  --color-7: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1 rem = 10px/16px= 62.5%
+}
+
+body {
+  font-size: 15px;
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+}
