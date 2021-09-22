@@ -1,0 +1,224 @@
+.navbar {
+  margin-top: 2.2rem;
+  padding-bottom: 2.7rem;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 1400px) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  h2 {
+    font-family: "Antonio";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -1.05px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    cursor: pointer;
+    list-style: none;
+
+    &:not(:last-child) {
+      margin-right: 3.3rem;
+    }
+
+    @media (max-width: 950px) {
+      margin-right: 2.2rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: "Spartan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 25px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    @media (max-width: 880px) {
+      font-size: 9px;
+    }
+  }
+}
+
+.earth {
+  margin: 0 auto;
+  display: flex;
+
+  max-width: 68%;
+
+  padding-top: 12.6rem;
+
+  @media (max-width: 910px) {
+    flex-direction: column;
+    max-width: 138rem;
+  }
+
+  &__img {
+    margin-right: 22rem;
+
+    @media (max-width: 1480px) {
+      margin-right: 5rem;
+    }
+
+    @media (max-width: 1030px) {
+      img {
+        width: 35rem;
+        height: 35rem;
+      }
+    }
+    img {
+      @media (max-width: 910px) {
+        margin-bottom: 8rem;
+        width: 285px;
+        height: 285px;
+      }
+    }
+    ///////////////////img ortaya getirmek ????????????????????????????????
+  }
+
+  &__content {
+    margin-top: -3rem;
+
+    @media (max-width: 910px) {
+      display: flex;
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+
+    h2 {
+      font-family: "Antonio";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 80px;
+      line-height: 104px;
+      text-transform: uppercase;
+
+      color: #ffffff;
+      margin-bottom: 2.3rem;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 25px;
+
+      color: #ffffff;
+      margin-bottom: 2.4rem;
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 25px;
+      color: #ffffff;
+
+      mix-blend-mode: normal;
+      opacity: 0.5;
+      span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 25px;
+        text-decoration-line: underline;
+        color: #ffffff;
+      }
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    @media (max-width: 910px) {
+      margin-left: 7rem;
+    }
+  }
+}
+
+.planet-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 66.5%;
+  margin-bottom: 5.6rem;
+  margin-top: 9rem;
+  @media (max-width: 900px) {
+    max-width: 90%;
+  }
+
+  .rotation-time {
+    mix-blend-mode: normal;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    padding: 20px 73px 15px 23px;
+
+    &:not(:last-child) {
+      margin-right: 3rem;
+      @media (max-width: 768px) {
+        margin-right: 1.1rem;
+      }
+    }
+    h3 {
+      font-family: "Antonio";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -1.5px;
+      text-transform: uppercase;
+
+      color: #ffffff;
+
+      @media (max-width: 768px) {
+        font-size: 24px;
+      }
+    }
+    h2 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 11px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+
+      @media (max-width: 768px) {
+        font-size: 8px;
+      }
+    }
+  }
+}

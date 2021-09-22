@@ -1,0 +1,46 @@
+.btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+
+  letter-spacing: 2.57143px;
+  text-transform: uppercase;
+  text-align: left;
+
+  color: #ffffff;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+
+  padding: 12px 84px 11px 28px;
+
+  background-color: transparent;
+  width: 350px;
+  height: 48px;
+
+  span {
+    margin-right: 2.8rem;
+    opacity: 0.5;
+  }
+
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    padding: 8px 87px 7px 20px;
+    letter-spacing: 1.92857px;
+    font-size: 9px;
+
+    width: 281px;
+    height: 40px;
+
+    span {
+      margin-right: 1.7rem;
+    }
+  }
+}
+
+.btn-overview {
+  background: #6d2ed5;
+}
